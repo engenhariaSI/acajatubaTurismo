@@ -2172,6 +2172,19 @@
 		margin: 4em 0 0 0;
 	}
 
+	#produtos {
+		margin-top: 3.5em;
+	}
+
+	#pacote 1 {
+		background-image: url ("\images\fps.jpg");
+		height: 300px;
+	}
+	#pacote 2 {
+		background-image: url ("\images\fps.jpg");
+		height: 300px;
+	}
+
 	#email {
 		margin-left: 20px;
 		width: 30em;
