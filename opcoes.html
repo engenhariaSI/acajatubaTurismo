@@ -19,13 +19,13 @@
 					<h1 id="logo"><a href="index.html">Acajatuba Turismo</a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<!--<li><a href="#header">Home</a></li>-->
 							<li>
 								<a href="#">Explorar!</a>
 								<ul>
 									<li><a href="opcoes.html">Viaje conosco</a></li>
 									<li><a href="galeria.html">Registros das viagens</a></li>
-									<li><a href="contato">Fala com a gente :)</a></li>
+									<li><a href="#contato">Fala com a gente :)</a></li>
 									<!--<li>
 										<a href="#">Submenu</a>
 										<ul>
@@ -43,26 +43,16 @@
 					</nav>
 				</header>
 
-			<!-- Banner -->
-				<section id="banner">
-                    <!--<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/after.jpg" id="bgvid" autoplay loop>
-                        <source src="http://thenewcode.com/assets/videos/after.webm" type="video/webm">
-                        <source src="http://thenewcode.com/assets/videos/after.mp4" type="video/mp4">
-                    </video>
-                    <audio src="http://thenewcode.com/assets/audio/24-ghosts-III.mp3" autoplay> 
-                        <p>Seu navegador não suporta áudio</p>
-                    </audio>-->
-
-					<div class="content">
-						<header>
-							<h2>Viva (n)a Amazônia!</h2>
-							<p>Encante-se.</p>
-                            <!--<br />Just apps. Lots of mother flipping apps.</p>-->
-						</header>
-						<!--<span class="image"><img src="images/pic01.jpg" alt="" /></span>-->
-					</div>
-					<!--<a href="#one" class="goto-next scrolly">Next</a>-->
-				</section>
+			<table id="produtos">
+                <tr>
+                    <section id="pacote 1"><td></td></section>
+                    <section id="pacote 2"><td></td></section>
+                </tr>
+                <tr>
+                    <td>Trompa</td>
+                    <td>Tuba</td>
+                </tr>
+            </table>
 
 			<!-- Turismo Sustentável -->
                 <a href="opcoes.html">
@@ -74,7 +64,7 @@
 								<div class="ha2">
 									<header>
 										<h2>Viaje conosco!</h2>
-                                        <p>Se surpreenda com a região e belezas naturais!</p>						
+                                        <p>Se surpreenda com a maior floresta do mundo e suas comunidades!</p>						
 									</header>
 								</div>
 							</div>
@@ -207,13 +197,15 @@
 				<section id="contato" class="wrapper style2 special fade">
 					<div class="container">
 						<header>
-							<h2>Magna faucibus lorem diam</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+							<h2>Quer falar com a gente? Clica aí ;-)</h2>
+							<p>Manda sua pergunta, elogio, dúvida, qualquer coisa que quiser! Vamos te responder com toda a atenção que merece (:</p>
 						</header>
 						<form method="post" action="#" class="container 50%">
 							<div class="row uniform 50%">
-								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special" /></div>
+								<div id="email"><input type="email" name="email" id="e-mail" placeholder="Qual seu e-mail?" /></div>
+                                <div><input type="submit" value="Enviar!" class="fit special" /></div><br /><br />
+                                <div id="msg"><input type="text" name="msg" placeholder="O que você quer contar pra gente?" /></div>
+								 <!-- class="4u$ 12u$(xsmall)"-->
 							</div>
 						</form>
 					</div>
@@ -221,16 +213,16 @@
 
 			<!-- Footer -->
 				<footer id="footer">
-					<ul     class="icons">
-						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<ul class="icons">
+						<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
 						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!--<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>-->
 						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+
+						<li><a href="#contato" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy;Acajatuba Turismo - Gabitur</li><li>Design: <a href="#">LMS</a></li>
 					</ul>
 				</footer>
 
