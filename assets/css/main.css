@@ -2173,16 +2173,20 @@
 	}
 
 	#produtos {
-		margin-top: 3.5em;
+		margin-top: 3.5em;	
+		color: #000000;
+		font-weight: 600;
+		text-align: center;
+
 	}
 
-	#pacote 1 {
-		background-image: url ("\images\fps.jpg");
-		height: 300px;
+	#pacote_1 {
+		width: 50%;
+		height: 400px;
 	}
-	#pacote 2 {
-		background-image: url ("\images\fps.jpg");
-		height: 300px;
+	#pacote_2 {
+		width: 50%;
+		height: 400px;
 	}
 
 	#email {
@@ -2190,6 +2194,9 @@
 		width: 30em;
 	}	
 
+	.lazy {
+  display: none;
+}
 	#msg {
 		margin-left: 20px;
 		width: 70em;	
@@ -3486,7 +3493,7 @@
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background-image: url(../../images/pic06.jpg);
 		padding: 6em 0;
 		text-align: center;
 	}
